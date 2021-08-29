@@ -1,0 +1,76 @@
+*{
+    caret-color: transparent;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1{
+    color: blue;
+}
+a, button {
+    text-decoration: none;
+}
+p {
+    text-align: justify;
+}
+
+/* Scrollbar starts */
+
+.country::-webkit-scrollbar {
+    display: none;
+  }
+#country-details::-webkit-scrollbar {
+    display: none;
+  }
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+/* width */
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background-image: linear-gradient(rgb(61, 79, 243) 0%, rgb(53, 67, 188) 100%);
+      border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: rgb(250, 128, 76); 
+  }
+  
+  /* Scrollbar ends */
+
+.btn-grad {background-image: linear-gradient(to right, #7b4397 0%, #dc2430  51%, #7b4397  100%)}
+.btn-grad {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    height: 50px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-Shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px
+}
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+textarea::-webkit-scrollbar{
+    display: none;
+}
